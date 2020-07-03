@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <title>Assassins Creed 3</title>
+   <meta charset="utf-8">
+   <meta name="keywords" content="Assassins creed AC асасины ассасины ассасинс крид asasins cred">
+   <meta name="description" content="НЕ оффициальный сайт игры">
+
+   <link rel="shortcut icon" href="content/ac3/icon.ico" type="image/x-icon"> <!-- Иконка сайта -->
+   <meta name="viewport" content="width=device-width"> <!-- Для медиа в css -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+   <!-- Шрифты -->
+   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+   <!-- Bootstrap -->
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   
+   <link href="main-style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="start">
+    <svg viewBox="0 5 500 500">
+        <g class="g1">
+          <line x1="48%" y1="31%" x2="53%" y2="31%" stroke="white" stroke-width="5"/>
+          <line x1="50.5%" y1="31%" x2="50.5%" y2="26%" stroke="white" stroke-width="5"/>
+        </g>
+        <g class="g2">
+          <line x1="48%" y1="21%" x2="53%" y2="21%" stroke="white" stroke-width="5"/>
+          <line x1="50.5%" y1="21%" x2="50.5%" y2="26%" stroke="white" stroke-width="5"/>
+        </g>
+        <g class="g3">
+          <line x1="55.5%" y1="23.5%" x2="55.5%" y2="28.5%" stroke="white" stroke-width="5"/>
+          <line x1="50.5%" y1="26%" x2="55.5%" y2="26%" stroke="white" stroke-width="5"/>
+        </g>
+        <g class="g4">
+          <line x1="45.5%" y1="23.5%" x2="45.5%" y2="28.5%" stroke="white" stroke-width="5"/>
+          <line x1="45.5%" y1="26%" x2="50.5%" y2="26%" stroke="white" stroke-width="5"/>
+        </g>
+    </svg>
+  </div>
+
+  <div class="round round1"></div>
+  <div class="round round2"></div>
+  <div class="round round3"></div>
+  <div class="round round4"></div>
+  <div class="round round5"></div>
+  <div class="round round6"></div>
+
+  <audio src="content/btn-press.mp3" muted></audio>
+  <audio src="content/veter.mp3" class="audio1" muted></audio>
+
+  <video id="promo" src="content/ac3/ac3.mp4" type="video/mp4" poster="content/ac3/altac3.jpg" muted autoplay onerror="document.querySelector('.error').style.display = 'block'; document.querySelector('.sound').style.display = 'none';"></video>
+  <button class="sound zv">
+    <i class="fas fa-volume-mute" style="display:none"></i>
+    <i class="fas fa-volume-up" style="display:none"></i>
+  </button>
+  <p class="error">По какой-то причине видео не загружено :\</p>
+
+  <i class="up fas fa-caret-square-up zv"></i>
+
+  <hr>
+
+  <div class="container-fluid cards">
+    <div class="row">
+      <div class="card card1 col-6 col-md-4">
+        <img src="content/ac3/1.jpg" onclick="showFull(event)">
+      </div>
+      <div class="card card2 col-6 col-md-4">
+        <img src="content/ac3/2.jpg" onclick="showFull(event)">
+      </div>
+      <div class="card card3 col-6 col-md-4">
+        <img src="content/ac3/3.jpg" onclick="showFull(event)">
+      </div>
+      <div class="card card4 col-6 col-md-4">
+        <img src="content/ac3/4.jpg" onclick="showFull(event)">
+      </div>
+      <div class="card card5 col-6 col-md-4">
+        <img src="content/ac3/5.jpg" onclick="showFull(event)">
+      </div>
+      <div class="card card6 col-6 col-md-4">
+        <img src="content/ac3/6.jpg" onclick="showFull(event)">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <article class="biography">
+      <div class="container-fluid">
+         <div class="row row_biography" style="margin-top:5vw; margin-bottom:25vw;">
+            <img class="col-5" src="content/ac3/biog.png">
+            <p class="col-12 col-lg-6">Радунхагейду, позже получил имя Коннор Кенуэй, в честь покойного сына наставника — американского ассассина Ахиллеса Дэвенпорта. Жил в колониальной Америке конца 18-ого века во время Войны за независимость США. Является одним из предков Дезмонда Майлса.
+        Родился от английского тамплиера Хэйтема Кенуэя и индейской матери Гадзидзио. В один теплый день он, вместе со своими друзьями, убежал играть в прятки к лесу. Веселье длилось недолго, т. к. через некоторое время его схватили Тамплиеры под руководством Чарльза Ли. Ли начал душить и унижать его, говоря: Ничтожество, прах под ногами ты и весь твой народ. Ещё немного и Коннор был бы мертв, но избежав этой участи, он пообещал отомстить. После этого он убежал в деревню, где полыхал пожар. Было подозрение, что именно они подожгли деревню и дом Коннора. Мальчик пытался спасти маму, но не смог ― она сгорела заживо. Один из соплеменников забрал маленького Радунхагейду в другую деревню.
+        Радунхагейду оставался в своей новой деревне до 1769 года, но его всегда волновал вопрос, почему его племя не покидало долину, в которой они жили. В 14 лет Мать Рода дала ответы на некоторые его вопросы. Она показала Радунхагейду Хрустальный шар, который является великой тайной и должен быть скрыт их племенем. По справке из Анимуса - это было ещё одна Частица Эдема.
+        Радунхагейду дотронулся до шара, услышал голос Юноны и погрузился в иллюзию. Юнона придала ему вид орла, который летел сквозь туманы. Она рассказала ему о Тамплиерах, об их планах по захвату мира и необходимости борьбы с ними. Для этого Радунхагейду необходимо найти учителя, который мог бы обучить его.
+        Очнулся он уже на берегу реки и сразу после этого нарисовал символ ассассинов на песке. На это обратила внимание Мать Рода и спросила, где мальчик видел этот символ. Он рассказал, что дух показал ему это, тогда Мать отправила его в поместье на востоке и дала официальное разрешение покинуть долину.
+            </p>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <div class="row row_biography row2">
+            <p class="p2 col-lg-6">Ахиллес Дэвенпорт - ассассин британско-карибского происхождения, наставник Коннора Кенуэя. Жил во время американской революции. Проживал в собственном поместье.
+        Вступил в ряды ассасинов в середине 1730-х и стал наставником в 1746. У него был дар одновременно и к вербовке, и к командованию, поэтому довольно скоро возглавил группу ассасинов, которая расселилась по колониям и большей территории Фронтира. Также укрепил связи между Орденом и племенами конфедерации ирокезов, особенно Ганьягэха.
+        В 1752 году был наставником ассасина Шэя Кормака, а также и других колониальных ассасинов. В это время влияние Ордена продолжало расти.
+        В 1755 году Шей Кормак решил проверить святыню Предтеч в Лиссабоне в надежде найти там Частицу Эдема. Артефакт вызвал землетрясение, в результате которого погибли тысячи мирных жителей. Шей в ярости приходит к наставнику, однако Ахиллес и другие ассасины не поверили ему и выгнали из своего дома. Разочарованный Шей решает все исправить, украв манускрипт. Ахиллес заметил Шея, между ними завязалась драка, а затем Шей попытался сбежать. Ассасины загнали Шея к обрыву, и Ахиллес потребовал прекратить все дерзкие выходки и отдать манускрипт. Шей заявляет, что тогда всё повторится, и прыгает с обрыва, заодно получив пулю от Лайама (как позже выяснилось, это был Шевалье).
+        В 1756 году Шей просыпается в Нью-Йорке у пожилой пары Финнеганов, спасших и приютивших его. После этого к ним домой приходят ассасины, требуя отдать им Шея. Шей спасает Финнеганов от налетчиков. В качестве благодарности они преподносят ему одежду и доспехи своего покойного сына-тамплиера. Шей допрашивает ассасинов и захватывает их базу. После этого район переходит по контроль Британских войск, один из которых, полковник и тамплиер Джордж Монро, предлагает дружбу Шею. Не доверяя полковнику, он тем не менее соглашается и даже начинает на него работать, убивая всех ассасинов, которых когда-то считал своими братьями.
+              </p>
+            <img class="col-5" src="content/ac3/biog2.png">
+            <p class="p2_1 col-12">Ахиллес Дэвенпорт - ассассин британско-карибского происхождения, наставник Коннора Кенуэя. Жил во время американской революции. Проживал в собственном поместье.
+        Вступил в ряды ассасинов в середине 1730-х и стал наставником в 1746. У него был дар одновременно и к вербовке, и к командованию, поэтому довольно скоро возглавил группу ассасинов, которая расселилась по колониям и большей территории Фронтира. Также укрепил связи между Орденом и племенами конфедерации ирокезов, особенно Ганьягэха.
+        В 1752 году был наставником ассасина Шэя Кормака, а также и других колониальных ассасинов. В это время влияние Ордена продолжало расти.
+        В 1755 году Шей Кормак решил проверить святыню Предтеч в Лиссабоне в надежде найти там Частицу Эдема. Артефакт вызвал землетрясение, в результате которого погибли тысячи мирных жителей. Шей в ярости приходит к наставнику, однако Ахиллес и другие ассасины не поверили ему и выгнали из своего дома. Разочарованный Шей решает все исправить, украв манускрипт. Ахиллес заметил Шея, между ними завязалась драка, а затем Шей попытался сбежать. Ассасины загнали Шея к обрыву, и Ахиллес потребовал прекратить все дерзкие выходки и отдать манускрипт. Шей заявляет, что тогда всё повторится, и прыгает с обрыва, заодно получив пулю от Лайама (как позже выяснилось, это был Шевалье).
+        В 1756 году Шей просыпается в Нью-Йорке у пожилой пары Финнеганов, спасших и приютивших его. После этого к ним домой приходят ассасины, требуя отдать им Шея. Шей спасает Финнеганов от налетчиков. В качестве благодарности они преподносят ему одежду и доспехи своего покойного сына-тамплиера. Шей допрашивает ассасинов и захватывает их базу. После этого район переходит по контроль Британских войск, один из которых, полковник и тамплиер Джордж Монро, предлагает дружбу Шею. Не доверяя полковнику, он тем не менее соглашается и даже начинает на него работать, убивая всех ассасинов, которых когда-то считал своими братьями.
+      </p>
+         </div>
+      </div>
+  </article>
+
+  <canvas class="container-fluid location" id="canvas" width="1920" height="1080"><img id="for_cv" src="content/ac3/locac3.png"></canvas>
+  <script>
+    // setTimeout в качестве запасного варианта
+    window.requestAnimFrame = (function(){ 
+      return  window.requestAnimationFrame       || 
+              window.webkitRequestAnimationFrame || 
+              window.mozRequestAnimationFrame    || 
+              window.oRequestAnimationFrame      || 
+              window.msRequestAnimationFrame     || 
+              function( callback ){ 
+                window.setTimeout(callback, 1000 / 60); 
+              }; 
+    })();
+
+    // Background
+    var ctx = document.getElementById('canvas').getContext('2d');
+    var source = document.getElementById('for_cv').src;
+    var img = new Image;
+    img.src = source;
+    img.onload = function() {
+        ctx.drawImage(img, 0,0);
+    }
+
+    var particles = []; 
+
+    // Anim particles
+    if(document.getElementById('canvas').width === 1280 || document.getElementById('canvas').width === 2705) {
+
+      // Snow
+      function loop() { 
+        window.requestAnimFrame(loop); 
+        createParticles(); 
+        updateParticles(); 
+        killParticles(); 
+        drawParticles(); 
+      } 
+      window.requestAnimFrame(loop);
+
+      function createParticles() { 
+        if(particles.length < 100) { 
+          particles.push({ 
+            x: Math.random()*canvas.width,
+            y: 0, 
+            speed: 2+Math.random()*1, 
+            radius: 2+Math.random()*0.3, 
+            color: "white", 
+          }); 
+        } 
+      }
+
+      function updateParticles() {
+        for(var i in particles) { 
+          var part = particles[i]; 
+          part.y += part.speed; 
+        } 
+      }
+
+      function killParticles() {
+        for(var i in particles) { 
+          var part = particles[i]; 
+          if(part.y > canvas.height) { 
+            part.y = 0; 
+          } 
+        } 
+      }
+
+      function drawParticles() { 
+        ctx.drawImage(img, 0,0);
+        for(var i in particles) { 
+          var part = particles[i]; 
+          ctx.beginPath(); 
+          ctx.arc(part.x,part.y, part.radius, 0, Math.PI*2); 
+          ctx.closePath(); 
+          ctx.fillStyle = part.color; 
+          ctx.fill(); 
+        } 
+      }
+    } else {
+      function loop() { 
+        window.requestAnimFrame(loop); 
+        create();
+        draw();
+        move();
+      } 
+      window.requestAnimFrame(loop);
+      var w = canvas.width;
+      var h = canvas.height;
+      ctx.strokeStyle = 'rgba(174,194,224,0.9)';
+      ctx.lineWidth = 1;
+      ctx.lineCap = 'round';
+
+
+      function create() {
+        if(particles.length < 1000) { 
+          particles.push({
+            x: Math.random() * w,
+            y: Math.random() * h,
+            l: Math.random() * 1,
+            xs: -4 + Math.random() * 4 + 2,
+            ys: Math.random() * 10 + 10,
+            color: "blue", 
+          })
+        }
+      }
+
+      function draw() {
+        ctx.drawImage(img, 0,0);
+        for (var i = 0; i < particles.length; i++) {
+          var p = particles[i];
+          ctx.beginPath();
+          ctx.moveTo(p.x, p.y);
+          ctx.lineTo(p.x + p.l * p.xs, p.y + p.l * p.ys);
+          ctx.stroke();
+          ctx.fillStyle = p.color; 
+          ctx.fill(); 
+        }
+      }
+
+      function move() {
+        for (var i = 0; i < particles.length; i++) {
+          var p = particles[i];
+          p.x += p.xs;
+          p.y += p.ys;
+          if (p.x > w || p.y > h) {
+            p.x = Math.random() * w;
+            p.y = -20;
+          }
+        }
+      }
+  }
+  </script>
+
+
+   <!-- jQuery -->
+   <script src="jq.js"></script>
+
+   <!-- Bootstrap script`s -->
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+
+   <!-- Scrollbar -->
+   <script src="nicescroll.js"></script>
+   <script>
+     $(document).ready(
+       function() {
+         $("html").niceScroll({
+           cursorcolor:"#8b008b", 
+           background:"#10100E", 
+           autohidemode:"false", 
+           cursorborder:"0", 
+           cursorborderradius:"5px",
+           cursorwidth: "4px",
+         });
+     });
+   </script>
+
+   <!-- Событие(для плавного скролла) -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js" integrity="sha256-jnOjDTXIPqall8M0MyTSt98JetJuZ7Yu+1Jm7hLTF7U=" crossorigin="anonymous"></script>
+
+   <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
